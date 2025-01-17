@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 
+Name: Owen Ramaekers
+Date: 6/01/2025
+-->
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="../Styles/Core.css">
+    <link rel="stylesheet" href="../Styles/Hobbies.css">
+    <script src="../Scripts/Music.js" defer></script>
+    <script src="../Scripts/Checkusag.js" defer></script>
+</head>
+<body>
+    <h1 id="Title">Hobbies</h1>
+    <button id="MenuToggle"><i class="fas fa-bars"></i></button>
+    <nav id="Menu">
+        <ul id="MenuList">
+            <li><a href="../index.html" class="MenuItem">Home</a></li>
+            <li><a href="Porto.html" class="MenuItem">Portfolio</a></li>
+            <li><a href="Results.html" class="MenuItem">Results</a></li>
+            <li><a href="Ervaring.html" class="MenuItem">Ervaring</a></li>
+            <li><a href="Hobbies.html" class="MenuItem">Hobbies</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="Hobbytxt">Ik ben Owen Ramaekers en mijn hobbies zijn...</h1>
+        <h2 class="Hobbytxt">1. Gaming</h2>
+        <p class="Hobbytxt">Met Favorite zoals...</p>
+        <ul id="games">
+            <li><h2>Bomb Rush Cyberfunk</h2>
+            <img id="game1" src="../Images/BombRush.png" fetchpriority="low" alt="Bomb Rush"></li>
+            <li><h2>Post Void</h2>
+            <img id="game2" src="../Images/PostVoid.png" fetchpriority="low" alt="Post Void"></li>
+            <li><h2>Helldivers 2</h2>
+            <img id="game3" src="../Images/Helldivers2.png" fetchpriority="low" alt="Helldivers 2"></li>
+        </ul>
+        <h2 class="Hobbytxt">2. Muziek Luisteren</h2>
+        <p id="nowPlaying" class="Hobbytxt">Nu speelt: Barry Uhl - Devourering The Devoted</p>
+        <div id="musicPlayer" class="Hobbytxt">
+            <img src="../Images/song1.png" fetchpriority="low" alt="Album cover" id="songImage">
+            <audio id="music" controls>
+                <source id="song1" src="../Music/song1.mp3" type="audio/mp3">
+                <source id="song2" src="../Music/song2.mp3" type="audio/mp3">
+                <source id="song3" src="../Music/song3.mp3" type="audio/mp3">
+                <source id="song4" src="../Music/song4.mp3" type="audio/mp3">
+            </audio>
+            <br>
+            <button onclick="rewindSong()" id="rwMusic"><i class="fas fa-undo"></i> Rewind</button>
+            <button id="playMusic"><i class="fas fa-play"></i> Play</button>
+            <button onclick="switchSongs()" id="ffMusic"><i class="fas fa-forward"></i> Skip</button>
+        </div>
+        <br>
+        <br>
+        <h2 class="Hobbytxt">3. Programmeren</h2>
+        <img src="../Images/Tizenbrew.png" fetchpriority="low" alt="TizenBrew Logo" id="TizenbrewLogo">
+        <p class="Hobbytxt">Ik heb zelf nog niet veel gemaakt maar ik heb geholpen aan <a href="https://tizenbrew.vercel.app/" class="Linktxt">TizenBrew</a> met vertalen naar Nederlands,
+             <br>en ben ik nu bezig met een IPTV Player voor TizenBrew die nog geen github repo heeft helaas</p>
+        <br>
+        <br>
+    </main>
+    <footer id="Footer">
+        <p>Made by Owen Ramaekers.</p>
+        <ul id="FooterLinks">
+            <li><a href="mailto:owenramaekers2006@gmail.com">Mail Me</a></li>
+            <li><a href="https://github.com/owen-the-kid">GitHub</a></li>
+            <li><a href="https://bsky.app/profile/owenramaekers.bsky.social">Bluesky</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+body
+{
+    background-color: rgb(54, 101, 172);
+}
+
+#Profile
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+main
+{
+    text-align: center;
+}
+
+p
+{
+    color: white;
+}
+
+@media (orientation: landscape)
+{
+    #Profile
+    {
+        width: 100px;
+    }
+
+}
+
+article
+{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+article h2
+{
+    color: white;
+}

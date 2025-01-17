@@ -1,0 +1,56 @@
+body
+{
+    background-color: rgb(54, 101, 172);
+    text-align: center;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+.imgList
+{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imgList img#AndroidLogo
+{
+    height: 30px;
+    margin-top: 30px;
+}
+
+.imgList img.bglogo
+{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+@media (orientation: portrait)
+{
+    .imgList img
+    {
+        height: 60px;
+    }
+    
+    .imgList img#AndroidLogo
+    {
+        height: 20px;
+        margin-top: 30px;
+    }
+
+    .imgList img.bglogo
+    {
+        border-radius: 10px;
+        margin: 10px;
+        max-width: 98px;
+        max-height: 55px;
+    }
+
+
+}

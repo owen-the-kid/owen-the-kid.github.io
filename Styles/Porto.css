@@ -1,0 +1,20 @@
+/*
+    Set the background color of the page to a blue-ish color.
+*/
+body{
+    background-color: rgb(54, 101, 172);
+}
+
+/*
+    Set the width and height of the CV to a certain size, and center it on the page.
+    Set the border of the CV to none, so it doesn't have any borders.
+    Set the display of the CV to block, so it takes up the full width of the page.
+*/
+#CV{
+    width: 800px;
+    height: 1130px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

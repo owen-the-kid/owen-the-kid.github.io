@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(54, 101, 172);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#games li {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(80, 162, 162);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#games li:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px);
+}
+
+#game1, #game2, #game3 {
+    width: auto;
+    height: 150px;
+}
+
+.Hobbytxt{
+    color: black;
+    text-align: center;
+}
+
+audio {
+    display: none;
+}
+
+button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+#playMusic {
+    background-color: #4CAF50;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
+#songImage {
+    width: 300px;
+    height: 300px;
+}
+
+#TizenbrewLogo{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (orientation: portrait) {
+    #games li {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    #game1, #game2, #game3 {
+        width: auto;
+        height: 100px;
+    }
+}

@@ -1,0 +1,155 @@
+/**
+ * Imports the Roboto font from Google Fonts and Font Awesome icons.
+ */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+/**
+ * Sets the font family for all elements to Roboto.
+ */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/**
+ * Removes margin and padding from the body element.
+ */
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/**
+ * Sets the display property of the #MenuToggle element to none.
+ * This element is used to toggle the menu on mobile devices.
+ */
+#MenuToggle
+{
+    display: none;
+}
+
+/**
+ * Centers the text in the #Title element and sets the font weight to bold.
+ */
+#Title
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+/**
+ * Sets the list style type of the #MenuList element to none and centers the list items.
+ * Also sets the margin and padding of the element to 10px.
+ */
+#MenuList
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/**
+ * Sets the padding of the .MenuItem elements to 10px and sets the color to white.
+ * Also sets the transition property to change the color and text decoration on hover.
+ */
+.MenuItem
+{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+/**
+ * Sets the color of the .MenuItem elements to #a1a1a1 on hover.
+ */
+.MenuItem:hover {
+    color: #a1a1a1;
+
+}
+
+/**
+ * Sets the color of the .Linktxt elements to inherit.
+ */
+.Linktxt
+{
+    color: inherit;
+}
+
+/**
+ * Sets the background color of the #Footer element to rgb(42, 42, 42) and centers the text.
+ * Also sets the padding bottom property to 10px, the left and bottom properties to 0, and the width property to 100%.
+ * Finally, sets the box shadow property to create a shadow at the top of the footer.
+ */
+#Footer {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+/**
+ * Sets the height property of the html and body elements to 100%.
+ */
+html, body {
+    height: 100%;
+}
+
+/**
+ * Sets the display property of the body element to flex and the flex direction to column.
+ */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/**
+ * Sets the flex property of the main element to 1.
+ */
+main {
+    flex: 1;
+}
+
+/**
+ * Sets the list style type of the #FooterLinks element to none and centers the list items.
+ * Also sets the margin property to 0 and the display property to flex.
+ */
+#FooterLinks {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/**
+ * Sets the color of the #FooterLinks a elements to inherit and sets the padding to 10px.
+ */
+#FooterLinks a {
+    color: inherit;
+    padding: 10px;
+}
+
+/**
+ * Sets the padding of the .FooterItem elements to 10px and sets the color to white.
+ * Also sets the transition property to change the color on hover.
+ */
+.FooterItem {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/**
+ * Sets the color of the .FooterItem elements to #a1a1a1 on hover.
+ */
+.FooterItem:hover {
+    color: #a1a1a1;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Name: Owen Ramaekers
+Date: 8/01/2025
+
+This page will contain my portfolio. It will have a navigation bar, a title, a
+main area with my CV, and a footer with links to my social media and contact
+information.
+-->
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Load the core stylesheet -->
+    <link rel="stylesheet" href="../Styles/Core.css">
+    <!-- Load the stylesheet specific to this page -->
+    <link rel="stylesheet" href="../Styles/Porto.css">
+    <!-- Load the script specific to this page -->
+    <script src="../Scripts/Porto.js" defer></script>
+    <!-- Load the script that switches between the desktop and mobile stylesheet -->
+    <script src="../Scripts/Checkusag.js" defer></script>
+</head>
+<body>
+    <!-- The title of the page -->
+    <h1 id="Title">Portfolio</h1>
+    <!-- The navigation bar -->
+    <button id="MenuToggle"><i class="fas fa-bars"></i></button>
+    <nav id="Menu">
+        <ul id="MenuList">
+            <li><a href="../index.html" class="MenuItem">Home</a></li>
+            <li><a href="Porto.html" class="MenuItem">Portfolio</a></li>
+            <li><a href="Results.html" class="MenuItem">Results</a></li>
+            <li><a href="Ervaring.html" class="MenuItem">Ervaring</a></li>
+            <li><a href="Hobbies.html" class="MenuItem">Hobbies</a></li>
+        </ul>
+    </nav>
+    <!-- The main area of the page -->
+    <main>
+        <!-- Display my CV -->
+        <iframe src="../Documents/CV.pdf#toolbar=0&amp;navpanes=0" width="800" style="border:none;" id="CV" ></iframe>
+    </main>
+    <!-- The footer of the page -->
+    <footer id="Footer">
+        <p>Made by Owen Ramaekers.</p>
+        <ul id="FooterLinks">
+            <li><a href="mailto:owenramaekers2006@gmail.com">Mail Me</a></li>
+            <li><a href="https://github.com/owen-the-kid">GitHub</a></li>
+            <li><a href="https://bsky.app/profile/owenramaekers.bsky.social">Bluesky</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
