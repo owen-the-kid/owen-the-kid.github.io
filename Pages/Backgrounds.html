@@ -1,0 +1,13 @@
+<script>
+const REPO = "lainchan/lainchan";
+const BRANCH = "main";
+const FOLDER = "walls"; // change to the actual folder path in the repo
+
+fetch(`https://api.github.com/repos/${REPO}/contents/${FOLDER}?ref=${BRANCH}`)
+  .then(r => r.json())
+  .then(files => {
+    const images = files.filter(f => /\.(jpg|jpeg|png|gif|webp)$/i.test(f.name));
+    const random = images[Math.floor(Math.random() * images.length)];
+    document.body.style.backgroundImage = `url('${random.download_url}')`;
+  });
+</script>
