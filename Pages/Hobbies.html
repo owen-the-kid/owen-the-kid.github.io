@@ -10,7 +10,6 @@ Date: 6/01/2025
     <title>Hobbies</title>
     <link rel="stylesheet" href="../Styles/Core.css">
     <link rel="stylesheet" href="../Styles/Hobbies.css">
-    <script src="../Scripts/Music.js" defer></script>
     <script src="../Scripts/Checkusag.js" defer></script>
 </head>
 <body>
@@ -38,19 +37,8 @@ Date: 6/01/2025
             <img id="game3" src="../Images/Helldivers2.png" fetchpriority="low" alt="Helldivers 2"></li>
         </ul>
         <h2 class="Hobbytxt">2. Muziek Luisteren</h2>
-        <p id="nowPlaying" class="Hobbytxt">Nu speelt: Barry Uhl - Devourering The Devoted</p>
         <div id="musicPlayer" class="Hobbytxt">
-            <img src="../Images/song1.png" fetchpriority="low" alt="Album cover" id="songImage">
-            <audio id="music" controls>
-                <source id="song1" src="../Music/song1.mp3" type="audio/mp3">
-                <source id="song2" src="../Music/song2.mp3" type="audio/mp3">
-                <source id="song3" src="../Music/song3.mp3" type="audio/mp3">
-                <source id="song4" src="../Music/song4.mp3" type="audio/mp3">
-            </audio>
-            <br>
-            <button onclick="rewindSong()" id="rwMusic"><i class="fas fa-undo"></i> Rewind</button>
-            <button id="playMusic"><i class="fas fa-play"></i> Play</button>
-            <button onclick="switchSongs()" id="ffMusic"><i class="fas fa-forward"></i> Skip</button>
+            <iframe src="http://178.105.62.63/public/noisemaker_fm" width="100%" height="600" frameborder="0" allow="autoplay" title="Noisemaker FM"></iframe>
         </div>
         <br>
         <br>
@@ -71,4 +59,3 @@ Date: 6/01/2025
     </footer>
 </body>
 </html>
-
