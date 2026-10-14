@@ -28,7 +28,9 @@
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.67.0",
     "oxlint": "~1.82.0",
+    "sass-embedded": "^1.105.1",
     "vite": "^8.2.2",
+    "vite-imagetools": "^12.0.1",
     "vite-plugin-vue-devtools": "^8.2.1",
     "vue-eslint-parser": "^10.4.1"
   },
