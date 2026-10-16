@@ -8,14 +8,13 @@ import { RouterView } from 'vue-router'
       <li role="menuitem" tabindex="0" aria-haspopup="true">
         Home
         <ul role="menu">
-          <li role="menuitem"><a href="#top">Overview</a></li>
-          <li role="menuitem"><a href="#featured">Featured work</a></li>
+          <li role="menuitem"><a href="/">Overview</a></li>
         </ul>
       </li>
       <li role="menuitem" tabindex="0" aria-haspopup="true">
-        Portfolio
+        Projects
         <ul role="menu">
-          <li role="menuitem"><a href="#projects">Projects<span>01</span></a></li>
+          <li role="menuitem"><a href="/projradio">NoisemakerFM</a></li>
         </ul>
       </li>
       <li role="menuitem" tabindex="0" aria-haspopup="true">
@@ -44,4 +43,9 @@ import { RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+nav {
+  position: relative; // z-index only applies to positioned elements
+  z-index: 10; // above the canvas (0) and the window (1)
+}
+</style>
