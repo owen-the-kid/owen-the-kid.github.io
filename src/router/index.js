@@ -11,12 +11,27 @@ const router = createRouter({
     },
     {
       path: '/projradio',
-      name: 'projradio',
+      name: 'NoisemakerFM',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ProjRadio.vue'),
     },
+    {
+      path: '/projsg',
+      name: 'Seymour Glass',
+      component: () => import('../views/ProjSG.vue'),
+    },
+    {
+      path: '/myexp',
+      name: 'My Experience',
+      component: () => import('../views/MyExp.vue'),
+    },
+    {
+      path: '/myhobbies',
+      name: 'My Hobbies',
+      component: () => import('../views/MyHobbies.vue'),
+    }
   ],
 })
 

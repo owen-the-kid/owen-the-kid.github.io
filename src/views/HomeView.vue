@@ -29,8 +29,8 @@ function calculateAge() {
       <div class="window-body has-space">
         <div class="content-row">
           <div class="frame-wrapper">
-            <img src="/public/MyFace.png" alt="Photo" class="photo">
-            <img src="/public/VistaFrame.png" alt="Frame" class="frame">
+            <img src="/MyFace.png" alt="Photo" class="photo">
+            <img src="/VistaFrame.png" alt="Frame" class="frame">
           </div>
           <div class="intro">
             <h1>Welcome to Owen's Website</h1>

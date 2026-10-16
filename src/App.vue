@@ -15,13 +15,15 @@ import { RouterView } from 'vue-router'
         Projects
         <ul role="menu">
           <li role="menuitem"><a href="/projradio">NoisemakerFM</a></li>
+          <li role="menuitem"><a href="/projsg">Seymour Glass</a></li>
         </ul>
       </li>
       <li role="menuitem" tabindex="0" aria-haspopup="true">
         About
         <ul role="menu">
           <li role="menuitem"><a href="#CV">My CV</a></li>
-          <li role="menuitem"><a href="#experience">Experience</a></li>
+          <li role="menuitem"><a href="/myexp">My Experience</a></li>
+          <li role="menuitem"><a href="/myhobbies">My Hobbies</a></li>
         </ul>
       </li>
       <li role="menuitem" tabindex="0" aria-haspopup="true">
